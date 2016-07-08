@@ -1214,8 +1214,15 @@
 .article_blog
 {
   margin: 0 auto 0;
-  width: 940px;
+  width: 960px;
   height: 320px;
+  padding-bottom: 70px;
+}
+
+.center_blog,
+.right_blog
+{
+  margin-left: 30px;
 }
 
 .content_blog
@@ -1251,11 +1258,12 @@
 .blog_date
 {
   width: 50px;
-  height: 60px;
+  height: 50px;
   position: absolute;
   background: #95e1d3;
   top: 120px;
   left: -10px;
+  padding: 5px 0 5px;
 }
 
 .blog_text
@@ -1293,7 +1301,7 @@
 .blog_view,
 .blog_speech
 {
-  width: 50px;
+  width: 55px;
   height: 20px;
   position: relative;
 }
@@ -1328,4 +1336,66 @@
 .blog_speech .blog_follow_icon
 {
   background-position: 0 -18px;
+}
+
+.number_blog_date
+{
+  font-family: MontserratBold, sans-serif;
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+
+.month_blog_date
+{
+  font-family: MontserratLight, sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  top: 32px;
+  left: 4px;
+}
+
+.container_map
+{
+  background: url("../img/backgrounds/map.png") no-repeat;
+  background-size: cover;
+}
+
+.header_map
+{
+  padding: 30px 0;
+}
+
+.map_icon
+{
+  width: 20px;
+  height: 25px;
+  margin: 0 auto;
+  background: url("../img/icons/map-icon.png") no-repeat;
+  background-size: cover;
+}
+
+.header_text_map
+{
+  font-family: MontserratBold, sans-serif;
+  font-size: 18px;
+  color: #f38181;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.header_line_map
+{
+  margin: 15px auto 0;
+  width: 50px;
+  height: 2px;
+  background: #f38181;
+}
+
+.container_footer
+{
+  background: #f8f8f8;
 }
