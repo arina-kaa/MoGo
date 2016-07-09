@@ -1281,6 +1281,15 @@
   margin: 10px 0;
 }
 
+.blog_text_header_red
+{
+  font-family: MontserratRegular, sans-serif;
+  font-size: 11px;
+  color: #f38181;
+  text-align: left;
+  margin: 10px 0;
+}
+
 .blog_text_content
 {
   font-family: MontserratLight, sans-serif;
@@ -1292,7 +1301,7 @@
 
 .blog_line
 {
-  width: 300px;
+  width: 100%;
   height: 1px;
   background: #e5e5e5;
   margin: 12px 12px 12px 0;
@@ -1398,4 +1407,269 @@
 .container_footer
 {
   background: #f8f8f8;
+}
+
+.container_footer
+{
+  padding-top: 60px;
+}
+
+.footer_left
+{
+  width: 400px;
+  height: 270px;
+}
+
+.footer_logo
+{
+  background: url("../img/mogo-footer.png") no-repeat;
+  width: 100px;
+  height: 30px;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.footer_left_text_content
+{
+  font-family: MontserratLight, sans-serif;
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+  line-height: 20px;
+  width: 380px;
+}
+
+.footer_followers
+{
+  font-family: MontserratLight, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  text-align: left;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.footer_followers_col
+{
+  font-family: MontserratBold, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.follow_us
+{
+  width: 55px;
+  height: 15px;
+  text-align: left;
+  font-family: MontserratLight, sans-serif;
+  font-size: 11px;
+  color: #999999;
+  font-style: italic;
+  padding: 5px 20px 0 0;
+}
+
+.follow_us_buttons
+{
+  width: 240px;
+  height: 25px;
+}
+
+.follow_us_icon
+{
+  width: 20px;
+  height: 20px;
+  background: url("../img/icons/footer-follow-us.png") no-repeat;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.follow_us_buttons .facebook .follow_us_icon
+{
+  background-position: 0 0;
+}
+
+.follow_us_buttons .twitter .follow_us_icon
+{
+  background-position: -30px 0;
+}
+
+.follow_us_buttons .instagram .follow_us_icon
+{
+  background-position: -60px 0;
+}
+
+.follow_us_buttons .pinterest .follow_us_icon
+{
+  background-position: -90px 0;
+}
+
+.follow_us_buttons .google .follow_us_icon
+{
+  background-position: -120px 0;
+}
+
+.follow_us_buttons .youtube .follow_us_icon
+{
+  background-position: -150px 0;
+}
+
+.follow_us_buttons .dribbble .follow_us_icon
+{
+  background-position: -180px 0;
+}
+
+.follow_us_buttons .tumblr .follow_us_icon
+{
+  background-position: -210px 0;
+}
+
+.footer_center,
+.footer_right
+{
+  margin-left: 30px;
+}
+
+.footer_center
+{
+  width: 285px;
+  height: 302px;
+}
+
+.footer_right
+{
+  width: 205px;
+}
+
+.footer_text_overall_header
+{
+  font-family: MontserratRegular, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  text-align: left;
+  margin: 0 0 30px 0;
+}
+
+.footer_center_content .middle,
+.footer_center_content .bottom
+{
+  margin-top: 25px;
+}
+
+.footer_center_content .footer_image
+{
+  width: 90px;
+  height: 60px;
+}
+
+.footer_center_content .top .footer_image
+{
+  background: url("../img/articles/footer/blogs-top.png") no-repeat;
+}
+
+.footer_center_content .middle .footer_image
+{
+  background: url("../img/articles/footer/blogs-middle.png") no-repeat;
+}
+
+.footer_center_content .bottom .footer_image
+{
+  background: url("../img/articles/footer/blogs-bottom.png") no-repeat;
+}
+
+.footer_text_header
+{
+  font-family: MontserratRegular, sans-serif;
+  font-size: 10px;
+  color: #333333;
+  text-align: left;
+  margin: 5px 0 0 20px;
+  width: 170px;
+  line-height: 15px;
+}
+
+.footer_text_data
+{
+  width: 70px;
+  height: 15px;
+  text-align: left;
+  font-family: MontserratLight, sans-serif;
+  font-size: 11px;
+  color: #adadad;
+  font-style: italic;
+  margin: 5px 0 0 20px;
+}
+
+.footer_right_content_image
+{
+  width: 65px;
+  height: 65px;
+}
+
+.footer_right_content_image
+{
+  margin: 1px;
+}
+
+.footer_right_content .top .left
+{
+  background: url("../img/articles/footer/inst-top-left.png") no-repeat;
+}
+
+.footer_right_content .top .center
+{
+  background: url("../img/articles/footer/inst-top-center.png") no-repeat;
+}
+
+.footer_right_content .top .right
+{
+  background: url("../img/articles/footer/inst-top-right.png") no-repeat;
+}
+
+.footer_right_content .middle .left
+{
+  background: url("../img/articles/footer/inst-middle-left.png") no-repeat;
+}
+
+.footer_right_content .middle .center
+{
+  background: url("../img/articles/footer/inst-middle-center.png") no-repeat;
+}
+
+.footer_right_content .middle .right
+{
+  background: url("../img/articles/footer/inst-middle-right.png") no-repeat;
+}
+
+.footer_right_content .bottom .left
+{
+  background: url("../img/articles/footer/inst-bottom-left.png") no-repeat;
+}
+
+.footer_right_content .bottom .center
+{
+  background: url("../img/articles/footer/inst-bottom-center.png") no-repeat;
+}
+
+.footer_right_content .bottom .right
+{
+  background: url("../img/articles/footer/inst-bottom-right.png") no-repeat;
+}
+
+.footer_view_more
+{
+  width: 100px;
+  height: 15px;
+  text-align: left;
+  font-family: MontserratLight, sans-serif;
+  font-size: 11px;
+  color: #919191;
+  font-style: italic;
+  margin: 10px 0 0;
+  cursor: pointer;
+}
+
+.footer_template
+{
+  width: 270px;
+  margin: 0 auto 10px;
 }
