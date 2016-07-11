@@ -37,7 +37,7 @@
 
 .body_width
 {
-  width: 950px;
+  width: 845px;
   margin: 0 auto;
 }
 
@@ -64,25 +64,23 @@
   font-family: KaushanScript-Regular, cursive;
   font-size: 18px;
   color: black;
-  padding-top: 50px;
+  padding-top: 60px;
   font-style: italic;
 }
 
 .header_text
 {
   font-family: MontserratBold, sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   color: black;
-  margin-top: 10px;
+  margin-top: 4px;
   font-weight: bold;
 }
 
 .header_line
 {
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  width: 50px;
+  margin: 25px auto 30px;
+  width: 44px;
   height: 2px;
   background: #f38181;
 }
@@ -90,11 +88,11 @@
 .text_content
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 13px;
+  font-size: 9.5px;
   color: #999999;
-  width: 950px;
-  margin: auto;
-  line-height: 20px;
+  width: 700px;
+  margin: 0 auto 0;
+  line-height: 15px;
 }
 
 .arrows
@@ -143,17 +141,17 @@
 
 .menu
 {
-  margin-top: 25px;
+  margin-top: 20px;
   float: right;
 }
 
 .menu_text
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: white;
-  margin: 20px;
-  padding: 10px 0 10px;
+  margin: 0 15px;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 
@@ -167,10 +165,9 @@
 .menu_icon
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: white;
-  margin: 20px;
-  padding: 10px 0 10px;
+  padding: 0 15px;
   text-decoration: none;
 }
 
@@ -187,19 +184,18 @@
 .cursive_welcome
 {
   font-family: KaushanScript-Regular, cursive;
-  font-size: 55px;
+  font-size: 50px;
   color: white;
-  margin-bottom: 0px;
-  margin-top: 70px;
+  margin-top: 100px;
   font-style: italic;
 }
 
 .welcome
 {
   font-family: MontserratBold, sans-serif;
-  font-size: 94px;
+  font-size: 105px;
   color: white;
-  line-height: 85px;
+  line-height: 95px;
   width: 600px;
   margin: 20px auto 0;
   font-weight: bold;
@@ -208,9 +204,9 @@
 .line_welcome
 {
   margin: auto;
-  margin-top: 40px;
+  margin-top: 46px;
   margin-bottom: 40px;
-  width: 50px;
+  width: 45px;
   height: 2px;
   background: white;
 }
@@ -218,7 +214,7 @@
 .button
 {
   border: 2px solid white;
-  padding: 6px 20px;
+  padding: 6px 17px;
   font-family: MontserratRegular, sans-serif;
   font-size: 11px;
   color: white;
@@ -228,9 +224,6 @@
 .button:hover
 {
   border: 2px solid #c5f7ee;
-  padding: 6px 20px;
-  font-family: MontserratRegular, sans-serif;
-  font-size: 8pt;
   color: #c5f7ee;
   text-decoration: none;
 }
@@ -238,15 +231,15 @@
 .number_welcome
 {
   font-family: MontserratBold, sans-serif;
-  font-size: 12pt;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .footer_welcome
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 9pt;
-  margin: 130px auto 0;
+  font-size: 12px;
+  margin: 117px auto 0;
   width: 870px;
   height: 50px;
 }
@@ -302,14 +295,14 @@
 
 .pictures_story
 {
-  margin: 65px auto 70px;
-  width: 770px;
+  margin: 70px auto 80px;
+  width: 850px;
 }
 
 .super_team
 {
-  width: 240px;
-  height: 158px;
+  width: 265px;
+  height: 175px;
   position: relative;
 }
 
@@ -333,8 +326,8 @@
 .super_team_hover, 
 .gradient
 {
-  width: 240px;
-  height: 158px;
+  width: 265px;
+  height: 175px;
   position: absolute;
   top: -10px;
   left: -10px;
@@ -373,7 +366,7 @@
 .super_team .gradient
 {
   background: linear-gradient(to bottom, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
-  padding: 60px 0 0;
+  padding: 65px 0 0;
   text-align: center;
   box-sizing: border-box;
 }
@@ -397,18 +390,21 @@
 {
   background-color: #95e1d3;
   width: 100%;
+  height: 185px;
+  margin-bottom: 11px;
 }
 
 .text_low_story
 {
-  width: 710px;
+  width: 850px;
+  height: 190px;
   margin: 0 auto;
 }
 
 .number_story
 {
   font-family: MontserratBold, sans-serif;
-  font-size: 38pt;
+  font-size: 52px;
   color: white;
   font-weight: bold;
 }
@@ -416,12 +412,13 @@
 .low_menu_story
 {
   margin: 0 auto;
-  width: 140px;
+  padding: 45px 0;
+  width: 165px;
+  height: 95px;
   border-right: 1px solid #b5eae0;
   font-family: MontserratLight, sans-serif;
-  font-size: 7pt;
+  font-size: 10px;
   color: white;
-  padding: 40px 0 50px;
   float: left;
 }
 
@@ -432,20 +429,20 @@
 
 .icon
 {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 32px;
   float: left;
-  background: url("../img/icons/sprite.png") no-repeat;
+  background: url("../img/icons/amazing-services.png") no-repeat;
 }
 
 .services_text
 {
-  width: 290px;
+  width: 260px;
 }
 
 .article_services
 {
-  margin-bottom: 50px;
+  margin: 45px auto 92px;
 }
 
 .block.photography,
@@ -461,21 +458,21 @@
 .services_text_header
 {
   font-family: MontserratRegular, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: #333333;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 45px;
 }
 
 .services_text_content
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: #999999;
   text-align: left;
   margin: 10px 0 0;
-  padding-left: 50px;
-  line-height: 20px;
+  padding-left: 45px;
+  line-height: 17px;
 }
 
 .photography .icon
@@ -485,32 +482,32 @@
 
 .web_design .icon
 {
-  background-position: 0 -50px;
+  background-position: 0 -37px;
 }
 
 .creativity .icon
 {
-  background-position: 0 -100px;
+  background-position: 0 -74px;
 }
 
 .seo .icon
 {
-  background-position: 0 -150px;
+  background-position: 0 -106px;
 }
 
 .css .icon
 {
-  background-position: 0 -200px;
+  background-position: 0 -143px;
 }
 
 .digital .icon
 {
-  background-position: 0 -250px;
+  background-position: 0 -178px;
 }
 
 .services_line
 {
-  margin: 40px auto 40px;
+  margin: 30px auto 33px;
   width: 910px;
   height: 1px;
   background: #e5e5e5;
@@ -526,8 +523,8 @@
 {
   background: url("../img/articles/ipad.png") no-repeat;
   margin: 0 auto 0;
-  width: 300px;
-  height: 370px;
+  width: 335px;
+  height: 408px;
   position: relative;
 }
 
@@ -535,16 +532,16 @@
 {
   background: url("../img/articles/iphone.png") no-repeat;
   position: absolute;
-  top: 125px;
-  left: 240px;
-  width: 164px;
-  height: 290px;
+  top: 138px;
+  left: 250px;
+  width: 168px;
+  height: 310px;
 }
 
 .container_service
 
 {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .service_content
@@ -1289,7 +1286,7 @@
 .blog_text_header
 {
   font-family: MontserratRegular, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   color: #333333;
   text-align: left;
   margin: 10px 0;
@@ -1298,7 +1295,7 @@
 .blog_text_header_red
 {
   font-family: MontserratRegular, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   color: #f38181;
   text-align: left;
   margin: 10px 0;
@@ -1307,7 +1304,7 @@
 .blog_text_content
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   color: #999999;
   text-align: left;
   line-height: 20px;
@@ -1421,16 +1418,17 @@
 .container_footer
 {
   background: #f8f8f8;
+  padding-top: 60px;
 }
 
-.container_footer
+.article_footer
 {
-  padding-top: 60px;
+  margin: 0 auto 0;
 }
 
 .footer_left
 {
-  width: 400px;
+  width: 335px;
   height: 270px;
 }
 
@@ -1446,22 +1444,22 @@
 .footer_left_text_content
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 11px;
+  font-size: 9.5px;
   color: #999999;
   text-align: left;
-  line-height: 20px;
-  width: 380px;
+  line-height: 17px;
+  width: 335px;
 }
 
 .footer_followers
 {
   font-family: MontserratLight, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   color: #333333;
   text-align: left;
-  line-height: 20px;
   padding-top: 20px;
 }
+
 .footer_followers_col
 {
   font-family: MontserratBold, sans-serif;
@@ -1540,12 +1538,12 @@
 .footer_center,
 .footer_right
 {
-  margin-left: 30px;
+  margin-left: 22px;
 }
 
 .footer_center
 {
-  width: 285px;
+  width: 260px;
   height: 302px;
 }
 
@@ -1571,7 +1569,7 @@
 
 .footer_center_content .footer_image
 {
-  width: 90px;
+  width: 85px;
   height: 60px;
 }
 
@@ -1593,34 +1591,30 @@
 .footer_text_header
 {
   font-family: MontserratRegular, sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   color: #333333;
   text-align: left;
-  margin: 5px 0 0 20px;
-  width: 170px;
+  margin: 5px 0 0 10px;
+  width: 150px;
   line-height: 15px;
 }
 
 .footer_text_data
 {
   width: 70px;
-  height: 15px;
+  height: 9px;
   text-align: left;
   font-family: MontserratLight, sans-serif;
   font-size: 11px;
   color: #adadad;
   font-style: italic;
-  margin: 5px 0 0 20px;
+  margin: 5px 0 0 10px;
 }
 
 .footer_right_content_image
 {
   width: 65px;
   height: 65px;
-}
-
-.footer_right_content_image
-{
   margin: 1px;
 }
 
@@ -1699,10 +1693,10 @@
 
 .subscribe-input
 {
-  width: 220px;
+  width: 160px;
   height: 28px;
   font-family: MontserratLight, sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   color: #d6d6d6;
   font-style: italic;
   border-width: 1px;
@@ -1713,7 +1707,7 @@
 
 .subscribe-submit
 {
-  width: 130px;
+  width: 110px;
   height: 30px;
   font-family: MontserratBold, sans-serif;
   font-size: 11px;
@@ -1723,5 +1717,5 @@
   border: none;
   padding: 0;
   position: absolute;
-  left: 220px;
+  left: 160px;
 }
