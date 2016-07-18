@@ -263,7 +263,7 @@
   color: white;
   height: 100%;
   position: relative;
-  width: 180px;
+  width: 285px;
   height: 60px;
 }
 
@@ -1478,7 +1478,7 @@
 
 .footer_left
 {
-  width: 490px;
+  width: 485px;
 }
 
 .footer_logo
@@ -1588,12 +1588,12 @@
 .footer_center,
 .footer_right
 {
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .footer_center
 {
-  width: 380px;
+  width: 390px;
 }
 
 .footer_right
@@ -1604,22 +1604,22 @@
 .footer_text_overall_header
 {
   font-family: MontserratRegular, sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   color: #333333;
   text-align: left;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .footer_center_content .middle,
 .footer_center_content .bottom
 {
-  margin-top: 25px;
+  margin-top: 23px;
 }
 
 .footer_center_content .footer_image
 {
-  width: 85px;
-  height: 60px;
+  width: 120px;
+  height: 80px;
 }
 
 .footer_center_content .top .footer_image
@@ -1640,12 +1640,12 @@
 .footer_text_header
 {
   font-family: MontserratRegular, sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   color: #333333;
   text-align: left;
-  margin: 5px 0 0 10px;
-  width: 150px;
-  line-height: 15px;
+  margin: 10px 0 0 15px;
+  width: 220px;
+  line-height: 20px;
 }
 
 .footer_text_data
@@ -1654,16 +1654,16 @@
   height: 9px;
   text-align: left;
   font-family: MontserratLight, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   color: #adadad;
   font-style: italic;
-  margin: 5px 0 0 10px;
+  margin: 5px 0 0 15px;
 }
 
 .footer_right_content_image
 {
-  width: 65px;
-  height: 65px;
+  width: 88px;
+  height: 88px;
   margin: 1px;
 }
 
@@ -1714,14 +1714,14 @@
 
 .footer_view_more
 {
-  width: 100px;
+  width: 150px;
   height: 15px;
   text-align: left;
   font-family: MontserratLight, sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   color: #919191;
   font-style: italic;
-  margin: 10px 0 0;
+  margin: 13px 0 0;
   cursor: pointer;
 }
 
