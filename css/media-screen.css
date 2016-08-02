@@ -9,6 +9,7 @@
   .pictures_story
   {
     height: 11em;
+    width: 51em;
   }
   
   .super_team
@@ -46,7 +47,7 @@
   
   .pictures_team
   {
-    width: 100%;
+    width: 52.7em;
     height: 28em;
     margin: 5.375em auto 0 /* 85px auto 160px */;
   }
@@ -200,6 +201,7 @@
   .pictures_story
   {
     height: 8.75em;
+    width: 41.9em;
   }
   
   .super_team
@@ -524,6 +526,11 @@
     font-size: 0.7em;
   }
   
+  .footer_right_content
+  {
+    width: 10em;
+  }
+  
   .footer_right_content .top,
   .footer_right_content .middle,
   .footer_right_content .bottom
@@ -640,13 +647,14 @@
   .pictures_story
   {
     height: 5em;
+    width: 26.1em /* 260px / 16px */;
     margin: 3em auto 4em;
   }
   
   .super_team
   {
-    width: 133px /* 260px / 16px */;
-    height: 80px /* 170px / 16px */;
+    width: 8.3125em /* 133px / 16px */;
+    height: 5em /* 80px / 16px */;
   }
   
   .super_team .gradient
@@ -803,8 +811,8 @@
   
   .our_team
   {
-    width: 11.75em /* 188px / 16px */;
-    height: 14.5em /* 232px / 16px */;
+    width: 16.25em /* 260px / 16px */;
+    height: 20.3125em /* 325px / 16px */;
     position: relative;
     float: none;
     margin: 0 auto 3em /* 80px auto 0 */;
@@ -819,7 +827,7 @@
   .social_team
   {
     width: 8em;
-    margin: 3.5em auto 0 /* 135px auto 0 */;
+    margin: 6em auto 0 /* 135px auto 0 */;
   }
   
   .social_team_button
@@ -836,7 +844,7 @@
   .our_team_name
   {
     font-size: 0.8em;
-    padding-top: 19em;
+    padding-top: 26em;
   }
 
   .our_team_prof
@@ -1721,6 +1729,11 @@
   {
     font-size: 0.75em;
     margin: 0.3125em 0 0;
+  }
+  
+  .footer_right_content
+  {
+    width: 12em;
   }
   
   .footer_right_content .top,
