@@ -134,6 +134,7 @@
 .logo
 {
   background: url("../img/mogo.png") no-repeat;
+  background-size: contain;
   width: 5.625em /* 90px / 16px */;
   height: 1.5625em /* 25px / 16px */;
   margin-top: 2.5% /* 30px / 1200px */;
@@ -319,21 +320,21 @@
 .super_team.left_block
 {
   background: url("../img/articles/super-team/super-team-left.png") no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .super_team.center_block
 {
   background: url("../img/articles/super-team/super-team-center.png") no-repeat;
   margin-left: 2.08333333333% /* 25px / 1200px */;
-  background-size: cover;
+  background-size: contain;
 }
 
 .super_team.right_block
 {
   background: url("../img/articles/super-team/super-team-right.png") no-repeat;
   margin-left: 2.08333333333% /* 25px / 1200px */;
-  background-size: cover;
+  background-size: contain;
 }
 
 .super_team_hover, 
@@ -417,7 +418,7 @@
 {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 0;
 }
 
 .number_story
@@ -762,8 +763,8 @@
 
 .our_team
 {
-  width: 31.666666666667% /* 380px / 1200px*/ ;
-  height: 94.4% /* 472px / 500px */;
+  width: 23.75em /* 380px / 16px*/ ;
+  height: 29.5em /* 472px / 16px */;
   position: relative;
   float: left;
 }
@@ -773,6 +774,7 @@
 .left_block .gradient_people
 {
   background: url("../img/articles/our-team/team-left.png") no-repeat;
+  background-size: contain;
 }
 
 .our_team.center_block,
@@ -780,6 +782,7 @@
 .center_block .gradient_people
 {
   background: url("../img/articles/our-team/team-center.png") no-repeat;
+  background-size: contain;
 }
 
 .our_team.right_block,
@@ -787,6 +790,7 @@
 .right_block .gradient_people
 {
   background: url("../img/articles/our-team/team-right.png") no-repeat;
+  background-size: contain;
 }
 
 .our_team.center_block,
