@@ -65,7 +65,7 @@
   font-family: KaushanScript-Regular, cursive;
   font-size: 1.5em; /* 24px / 16px */
   color: black;
-  padding-top: 7.41666666666667% /* 89px / 1200px */;
+  padding-top: 7% /* 89px / 1200px */;
   font-style: italic;
 }
 
@@ -312,7 +312,7 @@
 .super_team
 {
   width: 31% /* 380px / 16px */;
-  height: 100% /* 248px / 16px */;
+  height: 12.55em;
   position: relative;
   float: left;
 }
@@ -387,7 +387,7 @@
   background: -o-linear-gradient(top, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
   background: -ms-linear-gradient(top, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
   background: linear-gradient(top, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
-  padding: 30% 0 0 /* 105px 0 0 */;
+  padding: 25% 0 0 /* 105px 0 0 */;
   text-align: center;
   box-sizing: border-box;
 }
@@ -583,15 +583,20 @@
 .picture_service
 {
   width: 47.83333333333% /* 574px / 1200px */;
-  height: 24.25em /* 388px / 16px */;
-  background: url("../img/articles/service-picture.png") no-repeat;
-  background-size: contain;
+  float: left;
+}
+
+.picture_service_content
+{
+  width: 100%;
+  height: auto;
 }
 
 .list_service
 {
   width: 50% /* 600px / 1200px */;
   margin-left: 2.0833333333% /* 25px / 1200px */;
+  float: left;
 }
 
 .ac-container
@@ -969,6 +974,11 @@
 {
   width: 25%;
   height: 100%;
+}
+
+.right_part_block
+{
+  float: left;
 }
 
 .our_work_qw

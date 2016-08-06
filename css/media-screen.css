@@ -23,11 +23,6 @@
     padding: 25% 0 0;
   }
   
-  .picture_service
-  {
-    height: 18em;
-  }
-  
   .text_low_story
   {
     max-width: 58.4375em /* 935px / 16px */;
@@ -246,11 +241,6 @@
     left: 19.6em;
     width: 12.5em /* 200px / 16px */;
     height: 21.375em /* 342px / 16px */;
-  }
-  
-  .picture_service
-  {
-    height: 15em;
   }
   
   .ac-header
@@ -728,7 +718,16 @@
   
   .picture_service
   {
-    height: 9em;
+    width: 80%;
+    float: none;
+    margin: 0 auto 2em;
+  }
+  
+  .list_service
+  {
+    width: 90%;
+    float: none;
+    margin: 0 auto ;
   }
   
   .ac-header
@@ -760,6 +759,12 @@
   .footer_services_content
   {
     padding: 0em 0;
+  }
+  
+  .ac-content
+  {
+    font-size: 0.75em;
+    line-height: 1.6em;
   }
   
   .arrow_left.arrows
@@ -876,14 +881,25 @@
   
   .pictures_our_work
   {
-    height: 15em;
+    height: 25em;
     margin: 3em auto;
+  }
+  
+  .work_column
+  {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .right_part_block
+  {
+    float: left;
   }
   
   .gradient_content .small_icon_work,
   .gradient_content_long .small_icon_work
   {
-    display: none;
+    margin: 0 auto 0.375em /* 0 auto 6px */;
   }
   
   .gradient_content .super_team_text,
@@ -901,7 +917,7 @@
   
   .gradient_work .gradient_content
   {
-    padding-top: 15%;
+    padding-top: 20%;
   }
   
   .gradient_work .gradient_content_long
@@ -917,14 +933,14 @@
   .footer_our_work_text
   {
     width: 67%;
-    margin-top: 1.9em;
+    margin-top: 3em;
   }
   
   .footer_our_work_image
   {
     width: 14%;
     height: 5.5em;
-    margin-top: 2.7em;
+    margin-top: 3em;
   }
   
   .footer_our_work_ph
@@ -1335,15 +1351,12 @@
     margin: 2em auto 3em;
   }
   
-  .picture_service
-  {
-    display: none;
-  }
-  
+  .picture_service,
   .list_service
   {
-    width: 100%;
-    margin-left: 0 /* 25px / 1200px */;
+    width: 90%;
+    float: none;
+    margin: 0 auto 1em;
   }
   
   .ac-header
@@ -1487,8 +1500,19 @@
   
   .pictures_our_work
   {
-    height: 9em;
+    height: 18em;
     margin: 3em auto 0;
+  }
+  
+  .work_column
+  {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .right_part_block
+  {
+    float: left;
   }
   
   .gradient_content .small_icon_work,
@@ -1740,7 +1764,7 @@
   .footer_right_content .middle,
   .footer_right_content .bottom
   {
-    height: 3.8125em /* 61px / 16px */;
+    height: 61px /* 61px / 16px */;
   }
   
   .footer_right_content_image
