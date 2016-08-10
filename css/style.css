@@ -648,10 +648,10 @@
 .ac-header:before
 {
   position: absolute;
-  top: 0.8571em /* 12px / 14px */;
-  left: 0.714286em /* 10px / 14px */;
+  top: 0.7em /* 12px / 14px */;
+  left: 0.6em /* 10px / 14px */;
   content: '';
-  width: 2.28571em /* 32px / 14px */;
+  width: 2.3em /* 32px / 14px */;
   height: 2.42857em /* 34px / 14px */;
   background: url("../img/icons/sprite-service.png") no-repeat;
 }
@@ -952,6 +952,7 @@
 .footer_team_content
 {
   width: 90%;
+  max-width: 75em;
   margin: 0 auto 0;
   padding: 3.125em 0 /* 50px 0 */;
 }
@@ -967,13 +968,18 @@
 {
   margin: 6.25em auto 5em /* 100px auto 80px */;
   width: 100%;
-  height: 48.75em /* 780px / 16px */;
+}
+
+.pictures_our_work img
+{
+    max-width: 100%;
 }
 
 .work_column
 {
   width: 25%;
   height: 100%;
+  font-size: 0;
 }
 
 .right_part_block
@@ -985,12 +991,14 @@
 {
   width: 100%;
   height: 50%;
+  position: relative;
 }
 
 .our_work_long
 {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .our_work_qw_hover,
@@ -999,49 +1007,42 @@
   display: none;
 }
 
-.our_work_qw.left_top,
 .left_top.our_work_qw_hover,
 .left_top.gradient_work
 {
   background: url("../img/articles/our-works/left-top.png") no-repeat;
 }
 
-.our_work_qw.left_bottom,
 .left_bottom.our_work_qw_hover,
 .left_bottom.gradient_work
 {
   background: url("../img/articles/our-works/left-bottom.png") no-repeat;
 }
 
-.our_work_qw.center_top,
 .center_top.our_work_qw_hover,
 .center_top.gradient_work
 {
   background: url("../img/articles/our-works/center-top.png") no-repeat;
 }
 
-.our_work_qw.center_bottom,
 .center_bottom.our_work_qw_hover,
 .center_bottom.gradient_work
 {
   background: url("../img/articles/our-works/center-bottom.png") no-repeat;
 }
 
-.our_work_long.center_long,
 .center_long.our_work_long_hover,
 .center_long.gradient_work
 {
   background: url("../img/articles/our-works/center-long.png") no-repeat;
 }
 
-.our_work_qw.right_top,
 .right_top.our_work_qw_hover,
 .right_top.gradient_work
 {
   background: url("../img/articles/our-works/right-top.png") no-repeat;
 }
 
-.our_work_qw.right_bottom,
 .right_bottom.our_work_qw_hover,
 .right_bottom.gradient_work
 {
@@ -1059,6 +1060,9 @@
   text-align: center;
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .our_work_qw:hover .our_work_qw_hover,
@@ -1067,6 +1071,12 @@
 .our_work_long:hover .gradient_work
 {
   display: block;
+}
+
+.gradient_content,
+.gradient_content_long
+{
+  font-size: 1rem;
 }
 
 .gradient_content .small_icon_work,
@@ -1105,13 +1115,13 @@
 .gradient_work .gradient_content
 {
   display: block;
-  padding-top: 45% /* 150px / 390px */;
+  padding-top: 30% /* 150px / 390px */;
 }
 
 .gradient_work .gradient_content_long
 {
   display: block;
-  padding-top: 100%;
+  padding-top: 70%;
 }
 
 .footer_our_work

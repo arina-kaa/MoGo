@@ -83,11 +83,6 @@
     height: 6.8em /* 110px / 16px */;
   }
   
-  .pictures_our_work
-  {
-    height: 27.905em;
-  }
-  
   .gradient_work .gradient_content
   {
     padding-top: 25%;
@@ -255,6 +250,8 @@
   {
     top: 0.5em;
     left: 0.4em;
+    width: 34px;
+    height: 32px;
   }
   
   .ac-header:after,
@@ -363,11 +360,6 @@
     background-size: contain;
     height: 5.3em /* 150px / 16px */;
     
-  }
-  
-  .pictures_our_work
-  {
-    height: 19em;
   }
   
   .gradient_content .super_team_text,
@@ -740,8 +732,10 @@
   
   .ac-header:before
   {
-    top: 0.5em;
+    top: 0.3em;
     left: 0.4em;
+    width: 34px;
+    height: 32px;
   }
   
   .ac-header:after,
@@ -881,7 +875,6 @@
   
   .pictures_our_work
   {
-    height: 25em;
     margin: 3em auto;
   }
   
@@ -1369,8 +1362,10 @@
   
   .ac-header:before
   {
-    top: 0.5em;
-    left: 0.4em;
+    top: 0.25em;
+    left: 0.35em;
+    width: 34px;
+    height: 32px;
   }
   
   .ac-header:after,
@@ -1500,7 +1495,6 @@
   
   .pictures_our_work
   {
-    height: 18em;
     margin: 3em auto 0;
   }
   
